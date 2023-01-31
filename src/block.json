@@ -3,18 +3,19 @@
 	"apiVersion": 2,
 	"name": "create-block/third-block",
 	"version": "0.1.0",
-	"title": "Example Dynamic",
+	"title": "Third Block",
+	"description": "Third Block. Example dynamic block scaffolded with Create Block tool.",
+	"keywords": [""],
 	"attributes":{
 		"message":{
 			"type":"string",
-			"default":"First attribute"
+			"default":"This attribute can not be saved in dynamic blocks rendered only by php"
 		}
 	},
 	"example": {
 		},
 	"category": "widgets",
 	"icon": "smiley",
-	"description": "Example block scaffolded with Create Block tool.",
 	"supports": {
 		"html": false
 	},

@@ -24,7 +24,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function Edit() {
-  return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", (0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.useBlockProps)(), (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)('Example Dynamic', 'third-block'));
+  return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", (0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.useBlockProps)(), (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)('Third block : Example Dynamic', 'third-block'));
 }
 
 /***/ }),
@@ -134,7 +134,7 @@ module.exports = window["wp"]["i18n"];
   \************************/
 /***/ ((module) => {
 
-module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":2,"name":"create-block/third-block","version":"0.1.0","title":"Example Dynamic","attributes":{"message":{"type":"string","default":"First attribute"}},"example":{},"category":"widgets","icon":"smiley","description":"Example block scaffolded with Create Block tool.","supports":{"html":false},"textdomain":"third-block","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","render":"file:./render.php"}');
+module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":2,"name":"create-block/third-block","version":"0.1.0","title":"Third Block","description":"Third Block. Example dynamic block scaffolded with Create Block tool.","keywords":[""],"attributes":{"message":{"type":"string","default":"This attribute can not be saved in dynamic blocks rendered only by php"}},"example":{},"category":"widgets","icon":"smiley","supports":{"html":false},"textdomain":"third-block","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","render":"file:./render.php"}');
 
 /***/ })
 

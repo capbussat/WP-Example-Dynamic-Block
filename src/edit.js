@@ -8,7 +8,7 @@ import './editor.scss';
 export default function Edit() {
 	return (
 		<p { ...useBlockProps() }>
-			{ __( 'Example Dynamic', 'third-block' ) }
+			{ __( 'Third block : Example Dynamic', 'third-block' ) }
 		</p>
 	);
 }
