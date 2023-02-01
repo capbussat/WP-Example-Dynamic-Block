@@ -2,8 +2,7 @@
 <p <?php echo get_block_wrapper_attributes(); ?>>
 
 	
-	<?php esc_html_e( 'Example Dynamic – hello from a dynamic block!', 'third-block' ); ?>
-	<h2>This header is created in php</h2>
-	<p>This is a paragraph created in a php file: <b>render.php</b></p>
-	
+<h2><?php esc_html_e( 'Example Dynamic Block.', 'third-block' ); ?></h2>
+<p>
+This is a paragraph created in the php file of the block: <b>render.php</b></p>
 </p>
